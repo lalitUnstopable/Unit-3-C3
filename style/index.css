@@ -1,0 +1,32 @@
+#navbar{
+  display:flex;
+  justify-content: end;
+  background-color: aqua;
+}
+#navbar>div{
+  padding:20px;
+}
+#add_to_bucket{
+margin-top:19px;
+text-decoration: none;
+}
+#menu{
+  margin-top:25px;
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  grid-template-rows:auto;
+  gap:20px;
+  
+}
+#menu>div{
+  height:300px;
+  width:85%;
+  text-align: center;
+  border:1px solid black;
+}
+
+img{
+  height:62%;
+  width:100%;
+}
+

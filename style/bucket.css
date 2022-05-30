@@ -1,0 +1,22 @@
+#bucket{
+    margin-top:25px;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:auto;
+    gap:20px;
+
+}
+#bucket>div{
+    height:300px;
+    width:85%;
+    text-align: center;
+    border:1px solid black;
+  }
+  
+img{
+    height:62%;
+    width:100%;
+  }
+  #checkout{
+      margin-top: 40opx;
+  }
